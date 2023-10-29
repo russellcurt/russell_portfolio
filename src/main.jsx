@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       },
     ],
   },
-], {basename: "/russell_portfolio/"});
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
