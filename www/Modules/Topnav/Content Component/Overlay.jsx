@@ -37,33 +37,33 @@ const Overlay = ({ show, onClose }) => {
   if (location.pathname === "/recreation") {
     content = (
       <>
-        <Link onClick={scrollToTop} to="/about">About</Link>
-        <Link onClick={scrollToTop} to="/work">Work</Link>
-        <Link onClick={scrollToTop} to="/contact">Contact</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/about">About</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/work">Work</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/contact">Contact</Link>
       </>
     );
   } else if (location.pathname === "/about") {
     content = (
       <>
-        <Link onClick={scrollToTop} to="/work">Work</Link>
-        <Link onClick={scrollToTop} to="/recreation">Recreation</Link>
-        <Link onClick={scrollToTop} to="/contact">Contact</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/work">Work</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/recreation">Recreation</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/contact">Contact</Link>
       </>
     );
   } else if (location.pathname.startsWith("/work")) {
     content = (
       <>
-        <Link onClick={scrollToTop} to="/about">About</Link>
-        <Link onClick={scrollToTop} to="/recreation">Recreation</Link>
-        <Link onClick={scrollToTop} to="/contact">Contact</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/about">About</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/recreation">Recreation</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/contact">Contact</Link>
       </>
     );
   } else if (location.pathname === "/contact") {
     content = (
       <>
-        <Link onClick={scrollToTop} to="/about">About</Link>
-        <Link onClick={scrollToTop} to="/work">Work</Link>
-        <Link onClick={scrollToTop} to="/recreation">Recreation</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/about">About</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/work">Work</Link>
+        <Link onClick={scrollToTop} to="/russell_portfolio/recreation">Recreation</Link>
       </>
     );
   }
@@ -74,7 +74,7 @@ const Overlay = ({ show, onClose }) => {
     <div className="overlay">
       <div id="myNav">
         <nav className="nav-container">
-          <Link onClick={scrollToTop} to="/">
+          <Link onClick={scrollToTop} to="/russell_portfolio/">
             <motion.div
               className="personal-logo"
               whileHover="hover"

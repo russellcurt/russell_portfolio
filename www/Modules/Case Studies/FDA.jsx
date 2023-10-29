@@ -631,8 +631,8 @@ export default function FDA() {
         key="fda"
         prevText="04 Hatch"
         nextText="WORK"
-        prevLink="/work/hatch"
-        nextLink="/work/"
+        prevLink="/russell_portfolio/work/hatch"
+        nextLink="/russell_portfolio/work/"
       />
       <Footer />
     </>

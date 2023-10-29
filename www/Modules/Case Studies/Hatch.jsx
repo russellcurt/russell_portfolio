@@ -545,8 +545,8 @@ export default function Hatch() {
         key="hatch"
         prevText="03 Envision"
         nextText="05 FDA"
-        prevLink="/work/envision"
-        nextLink="/work/fda"
+        prevLink="/russell_portfolio/work/envision"
+        nextLink="/russell_portfolio/work/fda"
       />
       <Footer />
     </>

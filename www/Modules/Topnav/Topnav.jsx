@@ -80,7 +80,7 @@ export default function Topnav() {
     <>
       <section className={"navbar " + scrollDirection}>
         <nav className="nav-container">
-          <Link onClick={scrollToTop} to="/">
+          <Link onClick={scrollToTop} to="/russell_portfolio/">
             <motion.div
               className="personal-logo"
               whileHover="hover"
