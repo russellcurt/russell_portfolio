@@ -21,7 +21,7 @@ const router = createHashRouter([
       },
     ],
   },
-]);
+], {basename: "/russell_portfolio", hashType: ""});
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
