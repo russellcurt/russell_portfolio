@@ -34,7 +34,7 @@ const Overlay = ({ show, onClose }) => {
     }
   }, [show]);
 
-  if (location.pathname === "/recreation") {
+  if (location.pathname === "/russell_portfolio/recreation") {
     content = (
       <>
         <Link onClick={scrollToTop} to="/russell_portfolio/about">About</Link>
@@ -42,7 +42,7 @@ const Overlay = ({ show, onClose }) => {
         <Link onClick={scrollToTop} to="/russell_portfolio/contact">Contact</Link>
       </>
     );
-  } else if (location.pathname === "/about") {
+  } else if (location.pathname === "/russell_portfolio/about") {
     content = (
       <>
         <Link onClick={scrollToTop} to="/russell_portfolio/work">Work</Link>
@@ -50,7 +50,7 @@ const Overlay = ({ show, onClose }) => {
         <Link onClick={scrollToTop} to="/russell_portfolio/contact">Contact</Link>
       </>
     );
-  } else if (location.pathname.startsWith("/work")) {
+  } else if (location.pathname === "/russell_portfolio/work") {
     content = (
       <>
         <Link onClick={scrollToTop} to="/russell_portfolio/about">About</Link>
@@ -58,7 +58,7 @@ const Overlay = ({ show, onClose }) => {
         <Link onClick={scrollToTop} to="/russell_portfolio/contact">Contact</Link>
       </>
     );
-  } else if (location.pathname === "/contact") {
+  } else if (location.pathname === "/russell_portfolio/contact") {
     content = (
       <>
         <Link onClick={scrollToTop} to="/russell_portfolio/about">About</Link>
