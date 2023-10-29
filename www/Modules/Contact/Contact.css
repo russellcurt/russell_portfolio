@@ -1,0 +1,191 @@
+.contact-footer-stylings {
+  color: #f3f2ed;
+  font-family: Arial;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  background-color: #282828;
+  padding: 3.125rem;
+  text-align: start;
+}
+
+.contact-footer-stylings a,
+.cf-email-link {
+  color: #f3f2ed;
+  border-bottom: 2px solid #f3f2ed;
+}
+
+.contact-footer-stylings a:hover {
+  color: #696969;
+  border-bottom: 2px solid #696969;
+}
+
+.cf-header {
+  font-size: 1.125rem;
+  padding-bottom: 4.688rem;
+}
+
+.cf-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.cf-copy-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-basis: 50%;
+  padding-bottom: 3.125rem;
+}
+
+.cf-linkedin, .cf-resume, .cf-read-cv, .cf-github, .cf-behance {
+  padding-bottom: 3.125rem;
+}
+
+.cf-smaller-fonts {
+  font-size: 1.125rem;
+}
+
+.cf-linkedin {
+  flex-basis: 50%;
+}
+
+.cf-resume {
+  flex-basis: 50%;
+}
+
+.cf-message {
+  padding: 4.688rem 0;
+}
+
+.cf-email {
+  padding-right: 3.75rem;
+  /* padding-bottom: 3.125rem; */
+}
+
+.cf-copy-btn {
+  border: 1px solid #f3f2ed;
+  padding: 6px 10px 10px;
+  margin-right: 3rem;
+  transition: all 0.5s ease;
+  font-size: 18px;
+  letter-spacing: -0.36px;
+}
+
+.cf-copy-btn:hover {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  background-color: #696969;
+}
+
+/* tooltip 2 stylings */
+.cf-copy-tooltip {
+  padding: 10px 10px 10px;
+  font-size: 1.125rem;
+  border: 2px solid #f3f2ed;
+  border-radius: 50px;
+}
+
+.cf-copy-tooltip-hidden {
+  color: #282828;
+  user-select: none;
+}
+
+.cf-copyright {
+  padding-top: 1.125rem;
+}
+
+.cf-copyright div {
+  padding: 0.5px;
+}
+
+.cf-copyright-filler {
+  user-select: none;
+  -webkit-user-select: none;
+  color: #282828;
+}
+
+/* 576px for portrait phones
+768px for tablets
+992px for laptops
+1200px for large devices */
+
+@media screen and (max-width: 591px) {
+  .cf-header {
+    font-size: 3.1vw;
+    padding-bottom: 3.125rem;
+  }
+
+  .contact-footer-stylings {
+    color: #f3f2ed;
+    font-family: Arial;
+    font-size: 3.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    background-color: #282828;
+    padding: 3.125rem 0.938rem 3.125rem 0.938rem;
+    text-align: start;
+  }  
+
+  .cf-email {
+    padding-right: 2.75rem;
+    /* padding-bottom: 3.125rem; */
+  }
+
+  .cf-copy-btn {
+    border: 1px solid #f3f2ed;
+    padding: 6px 10px 10px;
+    margin-right: 3rem;
+    transition: all 0.5s ease;
+    font-size: 3.1vw;
+    letter-spacing: -0.36px;
+  }
+
+  .cf-smaller-fonts {
+    font-size: 3.1vw;
+  }
+
+  .cf-copy-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 50%;
+    padding-bottom: 1.875rem;
+  }
+
+  .cf-linkedin, .cf-resume, .cf-read-cv, .cf-github, .cf-behance {
+    padding-bottom: 1.875rem;
+  }
+
+  .cf-message {
+    padding: 2.5rem 0 0 0;
+  }
+
+  .contact-footer-stylings a,
+.cf-email-link {
+  color: #f3f2ed;
+  border-bottom: 1px solid #f3f2ed;
+}
+
+.contact-footer-stylings a:hover {
+  color: #696969;
+  border-bottom: 1px solid #696969;
+}
+
+}
+
+/* @media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 1200px) {
+  
+} */

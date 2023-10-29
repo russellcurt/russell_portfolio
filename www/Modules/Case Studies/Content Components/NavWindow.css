@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* can likely delete import */
+
+.top-nav,
+.bottom-nav {
+  font-family: Arial, sans-serif;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.top-nav {
+  background-color: #282828;
+  flex-direction: start;
+}
+
+.bottom-nav {
+  justify-content: center;
+  border-top: 1px solid #282828;
+  border-bottom: 1px solid #282828;
+  flex-direction: row;
+}
+
+.top-nav-btn {
+  border: 1px solid #282828;
+  border-bottom: 1px solid #282828;
+  padding: 11px 19px;
+}
+
+.top-nav-btn:hover {
+  cursor: pointer;
+}
+
+.bottom-nav-btn {
+  background-color: #f3f2ed;
+  color: #282828;
+  padding: 0 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0px;
+}
+
+.bottom-nav-btn-arrow svg {
+  padding-top: 0.3rem;
+}
+
+.feather-arrow-left svg {
+  padding-right: 0.5rem;
+}
+
+.feather-arrow-right svg {
+  padding-left: 0.6rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bottom-nav-links { 
+  padding-bottom: 5px;
+  padding-top: 6px;
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.bottom-nav-links-left {
+  border-right: 1px solid #282828;
+}
+
+.bottom-nav-links:hover .bottom-nav-btn,
+.bottom-nav-links:hover {
+  color: #f3f2ed;
+  background-color: #282828;
+}
+
+/* CaseStudyButton Stylings */
+.cs-btn {
+  border: 1px solid #282828;
+  padding: 16px 53px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #282828;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.44px;
+  background-color: #f3f2ed;
+}
+
+.cs-btn-arrow {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.cs-btn-img {
+  vertical-align: middle;
+}
+
+.cs-btn:hover {
+  background-color: #282828;
+  color: #f3f2ed;
+}
+
+.nav-btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border: 1px solid #282828;;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  color: #282828;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 2.8%;
+  height: 6%;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .bottom-nav {
+    font-family: Arial, sans-serif;
+    font-size: 3.75vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+  }
+  }
+
+@media screen and (max-width: 576px) {
+  .cs-btn {
+    border: 1px solid #282828;
+    padding: 1.6px 31.8px 8px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #282828;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.44px;
+    background-color: #f3f2ed;
+  }
+
+.bottom-nav {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-nav-btn-arrow svg {
+  padding-top: 0.3rem;
+  transform: scale(.6);
+}
+
+}

@@ -1,0 +1,1269 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+#cs-details {
+  padding: 5rem 0 0 0;
+  letter-spacing: -0.03rem;
+  overscroll-behavior: none; /* FLAG THIS PROPERTY CAN PREVENT TRACKPAD SCROLL.*/
+}
+
+.cs-name {
+  padding-top: 3.5rem;
+  padding-bottom: 1.25rem;
+  padding-left: 3.125rem;
+  font-size: 5.813rem;
+  font-weight: 700;
+  letter-spacing: -0.116rem;
+}
+
+.cs-short-description {
+  font-size: 1.5rem;
+  padding-bottom: 5rem;
+  padding-left: 3.125rem;
+}
+
+.landing-image {
+  display: flex;
+  padding: 5.5rem 0 0 0;
+  width: 100%;
+  height: auto;
+}
+
+/* start of case study steps section stylings */
+
+.csd-titles {
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: normal;
+  letter-spacing: -0.44px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+}
+
+.csd-window {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-nav-container {
+  width: 23vw;
+  border-left: 1px solid #040404;
+}
+
+.content-space {
+  font-size: 1.375rem;
+  letter-spacing: -0.44px;
+  font-family: Arial, sans-serif;
+  width: 77vw;
+}
+
+/* start of echo specific stylings (Echo.jsx) */
+.echo-overview-content,
+.echo-empathize-content,
+.echo-ideate-content,
+.echo-design-content {
+  padding: 4.7rem 3.125rem;
+}
+
+.echo-define-content {
+  padding: 4.7rem 3.125rem 0;
+}
+
+.echo-overview-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.echo-overview-top-left-container {
+  flex-basis: 59%;
+}
+
+.echo-overview-top-right-container {
+  flex-basis: 30%;
+}
+
+.echo-overview-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6.25rem 0 6.25rem 0;
+}
+
+.echo-overview-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.echo-empathize-content {
+  width: 88%;
+}
+
+.echo-empathize-spacing,
+.echo-define-spacing,
+.echo-ideate-spacing,
+.echo-design-spacing {
+  padding-bottom: 6.25rem;
+}
+
+.echo-empathize-img-container {
+  padding-top: 3.125rem;
+  /* width: 100%; */
+}
+
+.echo-empathize-spacing ul {
+  padding-left: 1.5rem;
+}
+
+.echo-ideate-img-containers {
+  font-size: 0px;
+}
+
+.echo-ideate-content p {
+  width: 95%;
+}
+
+.echo-design-center-btn,
+.echo-design-center-btns {
+  text-align: center;
+}
+
+.echo-design-center-btns {
+  display: flex;
+  justify-content: center;
+  gap: 4.28rem;
+}
+
+.echo-design-spacing p {
+  width: 94%;
+}
+
+.echo-design-img-tray-1 {
+  font-size: 0px;
+}
+
+.echo-design-vid-spacing,
+.echo-design-inner-spacing {
+  padding-bottom: 1.75rem;
+}
+/* end of echo specific stylings */
+
+/* start of envision specific stylings (Envision.jsx) */
+.envision-overview-content,
+.envision-empathize-content,
+.envision-define-content,
+.envision-ideate-content,
+.envision-design-content {
+  padding: 4.7rem 3.125rem;
+}
+
+.envision-overview-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.envision-overview-top-left-container {
+  flex-basis: 59%;
+}
+
+.envision-overview-top-right-container {
+  flex-basis: 30%;
+}
+
+.envision-overview-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6.25rem 0rem 5.625rem 0;
+}
+
+.envision-overview-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.envision-empathize-content {
+  width: 87%;
+}
+
+.envision-empathize-spacing {
+  padding-bottom: 6.25rem;
+}
+
+.echo-empathize-inner-bold,
+.envision-empathize-inner-bold,
+.echo-design-inner-bold,
+.hatch-empathize-inner-bold {
+  font-weight: 700;
+}
+
+.envision-empathize-spacing ul {
+  padding-left: 1.5rem;
+}
+
+.envision-define-spacing,
+.envision-ideate-spacing,
+.envision-design-spacing {
+  padding-bottom: 6.25rem;
+}
+
+.ed-container {
+  width: 95%;
+}
+
+.envision-define-last-container ul {
+  padding-left: 2rem;
+}
+
+.ei-container,
+.ed2-container {
+  width: 96%;
+}
+
+.ed2-container-top {
+  width: 90%;
+}
+
+.envision-design-btn-container {
+  padding-top: 3.125rem;
+  text-align: center;
+}
+
+/* img tray test stylings */
+.envision-design-img-tray {
+  font-size: 0px;
+}
+
+/* end of envision specific styling */
+
+/* start of fda specific styling (FDA.jsx) */
+.fda-overview-content,
+.fda-empathize-content,
+.fda-define-content,
+.fda-ideate-content,
+.fda-design-content {
+  padding: 4.7rem 3.125rem;
+}
+
+.fda-overview-spacing,
+.fda-empathize-spacing,
+.fda-define-spacing,
+.fda-ideate-spacing,
+.fda-design-spacing {
+  padding-bottom: 6.25rem;
+}
+
+.fda-overview-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fda-overview-top-left-container {
+  flex-basis: 59%;
+}
+
+.fda-overview-top-right-container {
+  flex-basis: 30%;
+}
+
+.fda-overview-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 5.625rem 0;
+}
+
+.fda-empathize-content {
+  width: 88%;
+}
+
+.fda-empathize-spacing ol,
+.fda-define-content ol {
+  padding-left: 1.5rem;
+}
+
+.fda-define-content {
+  width: 88%;
+}
+
+.fda-ideate-content {
+  width: 88%;
+}
+
+.fda-ideate-img-tray {
+  font-size: 0px;
+}
+
+.fda-design-content {
+  width: 88%;
+}
+
+.fda-design-img-tray {
+  font-size: 0px;
+}
+
+.fda-design-btn-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 0rem;
+}
+/* end of fda specific styling */
+
+/* start of hatch specific styling (Hatch.jsx) */
+.hatch-overview-content,
+.hatch-empathize-content,
+.hatch-define-content,
+.hatch-ideate-content,
+.hatch-design-content {
+  padding: 4.7rem 3.125rem;
+}
+
+.hatch-overview-spacing,
+.hatch-empathize-spacing,
+.hatch-define-spacing,
+.hatch-ideate-spacing,
+.hatch-design-spacing {
+  padding-bottom: 6.25rem;
+}
+
+.hatch-overview-top-container,
+.hatch-overview-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hatch-overview-top-left-container {
+  flex-basis: 59%;
+}
+
+.hatch-overview-top-right-container {
+  flex-basis: 30%;
+}
+
+.hatch-overview-btn-container {
+  padding: 0 0 5.625rem 0;
+}
+
+.hatch-empathize-spacing ul {
+  padding-left: 1.6rem;
+}
+
+.hatch-empathize-content {
+  width: 88%;
+}
+
+.hatch-define-content,
+.hatch-ideate-content {
+  width: 88%;
+}
+
+.hatch-define-content ul {
+  padding-left: 1.5rem;
+}
+
+.hatch-design-content {
+  width: 88%;
+}
+
+.hatch-ideate-img-tray,
+.hatch-design-img-tray {
+  font-size: 0px;
+}
+
+.hatch-design-btn-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 0rem;
+}
+
+/* end of hatch specific styling */
+
+/* start of starting over inc stylings (StartingOverInc.jsx) */
+.soi-overview-content,
+.soi-empathize-content,
+.soi-define-content,
+.soi-ideate-content,
+.soi-design-content {
+  padding: 4.7rem 3.125rem;
+}
+
+.soi-overview-spacing,
+.soi-empathize-spacing,
+.soi-define-spacing,
+.soi-ideate-spacing,
+.soi-design-spacing {
+  padding-bottom: 6.25rem;
+}
+
+.soi-overview-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.soi-overview-top-left-container {
+  flex-basis: 59%;
+}
+
+.soi-overview-top-right-container {
+  flex-basis: 30%;
+}
+
+.soi-overview-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0rem 5.625rem 0;
+}
+
+.soi-empathize-content {
+  width: 87%;
+}
+
+.soi-empathize-inner-italic {
+  font-style: italic;
+}
+
+.soi-empathize-content ol {
+  padding-left: 1.5rem;
+}
+
+.soi-define-content {
+  width: 87%;
+}
+
+.soi-define-content ol {
+  padding-left: 1.6rem;
+}
+
+.soi-ideate-content {
+  width: 87%;
+}
+
+.soi-ideate-img-tray {
+  font-size: 0px;
+}
+
+.soi-design-content {
+  width: 87%;
+}
+
+.soi-design-img-tray {
+  font-size: 0px;
+}
+
+.soi-design-btn-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 6rem;
+}
+/* end of starting over inc stylings */
+
+/* img handler stylings */
+.LLI-stylings > img {
+  width: 100%;
+}
+
+.LLI-stylings {
+  font-size: 0px;
+}
+
+/* media queries */
+@media screen and (min-width: 2496px) and (max-width: 2560px) {
+  .landing-image {
+    display: flex;
+    padding: 5.5rem 0 0 0;
+    width: 100%;
+    height: auto;
+  }
+
+  /* echo styling */
+   .echo-empathize-content{
+     width: 94.5%;
+   }
+   /* end of echo styling */
+ 
+   /* Starting over styling */
+ .soi-empathize-content,
+ .soi-define-content,
+ .soi-ideate-content,
+ .soi-design-content {
+   width: 94.5%;
+ }
+ /* end of starting over styling */
+ 
+ /* envision styling */
+ .envision-empathize-content {
+   width: 94.5%;
+ }
+ /* end of envision styling */
+ 
+ /* hatch styling */
+ .hatch-empathize-content,
+ .hatch-define-content,
+ .hatch-ideate-content,
+ .hatch-design-content {
+   width: 94.5%;
+ }
+ /* end of hatch styling */
+ 
+ /* fda styling */
+ .fda-empathize-content,
+ .fda-define-content,
+ .fda-ideate-content,
+ .fda-design-content {
+   width: 94.5%;
+ }
+ /* end of fda styling */
+ }
+
+@media screen and (min-width: 1921px) and (max-width: 2495px) {
+  /* echo styling */
+   .echo-empathize-content{
+     width: 93%;
+   }
+   /* end of echo styling */
+ 
+   /* Starting over styling */
+ .soi-empathize-content,
+ .soi-define-content,
+ .soi-ideate-content,
+ .soi-design-content {
+   width: 93%;
+ }
+ /* end of starting over styling */
+ 
+ /* envision styling */
+ .envision-empathize-content {
+   width: 93%;
+ }
+ /* end of envision styling */
+ 
+ /* hatch styling */
+ .hatch-empathize-content,
+ .hatch-define-content,
+ .hatch-ideate-content,
+ .hatch-design-content {
+   width: 93%;
+ }
+ /* end of hatch styling */
+ 
+ /* fda styling */
+ .fda-empathize-content,
+ .fda-define-content,
+ .fda-ideate-content,
+ .fda-design-content {
+   width: 93%;
+ }
+ /* end of fda styling */
+ }
+
+@media screen and (min-width: 1536px) and (max-width: 1920px) {
+ /* echo styling */
+  .echo-empathize-content{
+    width: 91.5%;
+  }
+  /* end of echo styling */
+
+  /* Starting over styling */
+.soi-empathize-content,
+.soi-define-content,
+.soi-ideate-content,
+.soi-design-content {
+  width: 91.5%;
+}
+/* end of starting over styling */
+
+/* envision styling */
+.envision-empathize-content {
+  width: 91.5%;
+}
+/* end of envision styling */
+
+/* hatch styling */
+.hatch-empathize-content,
+.hatch-define-content,
+.hatch-ideate-content,
+.hatch-design-content {
+  width: 91.5%;
+}
+/* end of hatch styling */
+
+/* fda styling */
+.fda-empathize-content,
+.fda-define-content,
+.fda-ideate-content,
+.fda-design-content {
+  width: 91.5%;
+}
+/* end of fda styling */
+}
+
+@media screen and (max-width: 1080px) {
+  .right-nav-container {
+    width: 0vw;
+    border-left: 0px solid #040404;
+    overflow-x: hidden;
+
+  }
+
+  .content-space {
+    width: 100vw;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1079px) {
+  .right-nav-container {
+    width: 0vw;
+    border-left: 0px solid #040404;
+    overflow-x: hidden;
+    translate: 200px;
+  }
+  .content-space {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* start of echo styling */
+  .echo-overview-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 100px 0;
+  }
+  .echo-design-center-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .echo-overview-top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 0px;
+  }
+
+  /* end of echo */
+
+  /* start of Starting over */
+.soi-overview-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0px 0 100px 0;
+}
+
+.soi-design-btn-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.soi-overview-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.soi-overview-top-left-container {
+  flex-basis: 59%;
+}
+
+.soi-overview-top-right-container {
+  flex-basis: 30%;
+  padding-top: 100px;
+}
+
+.soi-empathize-content {
+  width: 82.5%;
+}
+
+.soi-define-content {
+  width: 82.5%;
+}
+
+.soi-ideate-content {
+  width: 82.5%;
+}
+
+.soi-design-content {
+  width: 82.5%;
+}
+
+.soi-design-btn-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 6rem;
+}
+/* end of starting over */
+
+/* start of envision styling*/
+.envision-overview-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 100px 0;
+}
+
+.envision-overview-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 0px;
+}
+
+.envision-empathize-content {
+  width: 82.5%;
+}
+/* end of envision */
+
+/* start of hatch styling*/
+.hatch-overview-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 0 100px 0
+}
+
+.hatch-overview-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 0px;
+}
+
+.hatch-empathize-content {
+  width: 82.5%;
+}
+
+.hatch-define-content,
+.hatch-ideate-content {
+  width: 82.5%;
+}
+
+.hatch-design-content {
+  width: 82.5%;
+}
+/* end of hatch */
+
+/* start of FDA styling */
+.fda-overview-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 0 100px 0;
+}
+
+.fda-overview-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 0px;
+}
+
+.fda-empathize-content,
+.fda-define-content,
+.fda-ideate-content,
+.fda-design-content {
+  width: 82.5%;
+}
+/* end of FDA */
+  }
+
+@media screen and (max-width: 576px) {
+  .cs-name {
+    padding-top: 3.5rem;
+    padding-bottom: 1.25rem;
+    padding-left: 15px;
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: -0.116rem;
+  }
+  
+  .cs-short-description {
+    font-size: 13px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+  }
+
+  .landing-image {
+    display: flex;
+    padding: 45px 0 0 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .content-space {
+    font-size: 13px;
+    letter-spacing: -0.44px;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+  }
+
+  /* start of echo stylings */
+  .echo-overview-content,
+.echo-empathize-content,
+.echo-ideate-content,
+.echo-design-content,
+.echo-define-content,
+.envision-design-content {
+  padding: 50px 15px;
+}
+
+.echo-overview-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 0px;
+}
+
+.echo-overview-top-container p {
+  padding-bottom: 0;
+}
+
+.echo-overview-top-left-container {
+  flex-basis: 59%;
+}
+
+.echo-overview-top-right-container {
+  flex-basis: 30%;
+  padding-top: 30px;
+}
+
+.echo-overview-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 30px 0;
+}
+
+.echo-overview-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.echo-empathize-content {
+  width: 90%;
+}
+
+.echo-empathize-spacing,
+.echo-define-spacing,
+.echo-ideate-spacing,
+.echo-design-spacing {
+  padding-bottom: 30px;
+}
+
+.echo-empathize-img-container {
+  padding-top: 3.125rem;
+}
+
+.echo-empathize-spacing ul {
+  padding-left: 1.5rem;
+}
+
+.echo-ideate-img-containers {
+  font-size: 0px;
+}
+
+.echo-ideate-content p {
+  width: 95%;
+}
+
+.echo-design-center-btn,
+.echo-design-center-btns {
+  text-align: center;
+}
+
+.echo-design-center-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* width: 50%; */
+}
+
+.echo-design-spacing p {
+  width: 94%;
+}
+
+.echo-design-img-tray-1 {
+  font-size: 0px;
+}
+
+.echo-design-vid-spacing,
+.echo-design-inner-spacing {
+  padding-bottom: 1.75rem;
+}
+/* end of echo stylings */
+
+/* start of starting over inc styling */
+.soi-overview-content,
+.soi-empathize-content,
+.soi-define-content,
+.soi-ideate-content,
+.soi-design-content {
+  padding: 50px 15px;
+}
+
+.soi-overview-spacing,
+.soi-empathize-spacing,
+.soi-define-spacing,
+.soi-ideate-spacing,
+.soi-design-spacing {
+  padding-bottom: 30px;
+}
+
+.soi-overview-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 0px;
+}
+
+.soi-overview-top-left-container {
+  flex-basis: 59%;
+}
+
+.soi-overview-top-right-container {
+  flex-basis: 30%;
+  padding-top: 30px;
+}
+
+.soi-overview-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 0 30px 0;
+}
+
+.soi-empathize-content {
+  width: 90%;
+}
+
+.soi-empathize-content ol {
+  padding-left: 1.5rem;
+}
+
+.soi-define-content {
+  width: 90%;
+}
+
+.soi-define-content ol {
+  padding-left: 1.6rem;
+}
+
+.soi-ideate-content {
+  width: 90%;
+}
+
+.soi-ideate-img-tray {
+  font-size: 0px;
+}
+
+.soi-design-content {
+  width: 90%;
+}
+
+.soi-design-img-tray {
+  font-size: 0px;
+}
+
+.soi-design-btn-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+/* end of starting over inc styling */
+
+/* start of envision styling */
+.envision-overview-content,
+.envision-empathize-content,
+.envision-define-content,
+.envision-design-content {
+  padding: 50px 15px;
+}
+
+.envision-ideate-content {
+  padding: 50px 15px 20px;
+}
+
+.envision-overview-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 0px;
+}
+
+.envision-overview-top-left-container {
+  flex-basis: 59%;
+}
+
+.envision-overview-top-right-container {
+  flex-basis: 30%;
+  padding-top: 30px;
+}
+
+.envision-overview-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 30px 0;
+}
+
+.envision-overview-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.envision-empathize-content {
+  width: 90%;
+}
+
+.envision-empathize-spacing,
+.envision-design-spacing {
+  padding-bottom: 30px;
+}
+
+.envision-define-spacing,
+.envision-ideate-spacing {
+  padding: 0px 0;
+}
+
+.envision-define-spacing > p {
+  padding-bottom: 30px;
+}
+
+.envision-define-last-container {
+  padding-top: 30px;
+}
+
+.envision-ideate-spacing > p {
+  padding-bottom: 30px;
+}
+
+.ideate-img {
+  padding-bottom: 30px;
+}
+
+.define-img {
+  padding: 0;
+}
+
+.envision-empathize-spacing ul {
+  padding-left: 1.5rem;
+}
+
+
+.ed-container {
+  width: 100%;
+}
+
+.envision-define-last-container ul {
+  padding-left: 2rem;
+}
+
+.ei-container,
+.ed2-container {
+  width: 100%;
+}
+
+.ed2-container-top {
+  width: 100%;
+}
+
+.envision-design-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 30px 0;
+}
+
+/* img tray test stylings */
+.envision-design-img-tray {
+  font-size: 0px;
+}
+/* end of envision styling */
+
+/* start of hatch styling */
+.hatch-overview-content,
+.hatch-empathize-content,
+.hatch-define-content,
+.hatch-ideate-content,
+.hatch-design-content {
+  padding: 50px 15px;
+}
+
+.hatch-overview-spacing,
+.hatch-empathize-spacing,
+.hatch-define-spacing,
+.hatch-ideate-spacing,
+.hatch-design-spacing {
+  padding-bottom: 30px;
+}
+
+.hatch-overview-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 0px;
+}
+
+.hatch-overview-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 0 30px 0;
+}
+
+.hatch-overview-top-left-container {
+  flex-basis: 59%;
+}
+
+.hatch-overview-top-right-container {
+  flex-basis: 30%;
+  padding-top: 30px;
+}
+
+.hatch-empathize-spacing ul {
+  padding-left: 1.6rem;
+}
+
+.hatch-empathize-content {
+  width: 90%;
+}
+
+.hatch-define-content,
+.hatch-ideate-content {
+  width: 90%;
+}
+
+.hatch-define-content ul {
+  padding-left: 1.5rem;
+}
+
+.hatch-design-content {
+  width: 90%;
+}
+
+.hatch-ideate-img-tray,
+.hatch-design-img-tray {
+  font-size: 0px;
+}
+
+.hatch-design-btn-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+/* end of hatch styling */
+
+/* start of FDA styling */
+.fda-overview-content,
+.fda-empathize-content,
+.fda-define-content,
+.fda-ideate-content,
+.fda-design-content {
+  padding: 50px 15px;
+}
+
+.fda-overview-spacing,
+.fda-empathize-spacing,
+.fda-define-spacing,
+.fda-ideate-spacing,
+.fda-design-spacing {
+  padding-bottom: 30px;
+}
+
+.fda-overview-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 0px;
+}
+
+.fda-overview-top-left-container {
+  flex-basis: 59%;
+}
+
+.fda-overview-top-right-container {
+  flex-basis: 30%;
+  padding-top: 30px;
+}
+
+.fda-overview-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 0 30px 0;
+}
+
+.fda-empathize-content {
+  width: 92%;
+}
+
+.fda-empathize-spacing ol,
+.fda-define-content ol {
+  padding-left: 1.5rem;
+}
+
+.fda-define-content {
+  width: 92%;
+}
+
+.fda-ideate-content {
+  width: 92%;
+}
+
+.fda-ideate-img-tray {
+  font-size: 0px;
+}
+
+.fda-design-content {
+  width: 92%;
+}
+
+.fda-design-img-tray {
+  font-size: 0px;
+}
+
+.fda-design-btn-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+/* end of FDA styling */
+}

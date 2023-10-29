@@ -1,0 +1,196 @@
+.acc-page-general-stylings {
+  color: #282828;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%; /* consider changing to vw instead of %*/
+  margin: 0;
+  padding: 0;
+}
+
+.acc-buttons {
+  width: auto;
+  max-height: 12vh;
+  height: 12vh;
+  border-bottom: 1px solid #282828;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #e7e450;
+  padding: 0 3.125rem;
+}
+
+.acc-buttons:hover {
+  background: #282828;
+  color: #f3f2ed;
+}
+
+.acc-buttons:before,
+.acc-buttons:visited,
+.acc-buttons:link {
+  color: #282828;
+}
+
+.acc-buttons:hover {
+  cursor: pointer;
+}
+
+.acc-toggle-sign,
+.focus-toggle-sign {
+  font-size: 1.75rem;
+}
+
+.acc-buttons-top {
+  border-top: 1px solid #282828;
+}
+
+.acc-left-containers {
+  display: flex;
+  flex-direction: row;
+}
+
+.acc-recreation-number {
+  font-size: 1.375rem;
+  padding-right: 5.813rem;
+  letter-spacing: -0.44px;
+}
+
+.acc-recreation-name {
+  font-size: 3rem;
+  letter-spacing: -0.96px;
+}
+
+/* end of recreation */
+
+.focus-page-header-container {
+  display: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.focus-page-container {
+  display: block;
+}
+
+.focus-body {
+  font-size: 22px;
+  background-color: #e7e450;
+  letter-spacing: -0.44px;
+}
+
+.focus-body-container,
+.focus-body-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.focus-body-container {
+  padding: 3.375rem 3.125rem 3.125rem;
+}
+
+.focus-body-header {
+  padding-bottom: 4.125rem;
+}
+
+.focus-body-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  Padding: 0 50px 0 50px;
+}
+
+.focus-btn-spacing {
+  padding-bottom: 3.125rem;
+}
+
+@media screen and (max-width: 768px) {
+  .acc-toggle-sign,
+.focus-toggle-sign {
+  font-size: 1.75rem;
+}
+
+.acc-recreation-number {
+  font-size: 1.375rem;
+  padding-right: 2.75rem;
+  letter-spacing: -0.44px;
+}
+
+.acc-recreation-name {
+  font-size: 3rem;
+  letter-spacing: -0.96px;
+}
+
+.focus-body-container {
+  padding: 1.875rem 32px 0.938rem 32px;
+}
+
+}
+
+@media screen and (max-width: 576px) {
+  .acc-buttons {
+    width: auto;
+    max-height: 7.2vh;
+    height: 7.2vh;
+    border-bottom: 1px solid #282828;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #e7e450;
+    padding: 0 0.938rem;
+  }
+.focus-body-container {
+    padding: 1.875rem 7.5px 0.938rem 7.5px ;
+  }
+  
+
+  .focus-body {
+    font-size: 3.6vw;
+    background-color: #e7e450;
+    letter-spacing: -0.44px;
+  }
+
+  .focus-body-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    Padding: 0 0.93rem 0 0.938rem;
+  }
+  
+  .focus-body-header {
+    padding-bottom: 1rem;
+  }
+
+  .focus-btn-spacing {
+    padding-bottom: 1.875rem;
+  }
+
+  .acc-toggle-sign,
+.focus-toggle-sign {
+  font-size: 1.188rem;
+}
+
+.acc-recreation-number {
+  font-size: 0.813rem;
+  padding-right: 33px;
+  letter-spacing: -0.44px;
+}
+
+.acc-recreation-name {
+  font-size: 1.813rem;
+  letter-spacing: -0.96px;
+}
+
+.focus-btn-spacing {
+  padding-bottom: 0;
+}
+
+}
+

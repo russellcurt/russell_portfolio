@@ -1,0 +1,134 @@
+#work {
+  font-family: Arial;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.44px;
+  color: #282828;
+  
+}
+
+.wpc-spacing {
+  padding: 4.75rem 0 0 0;
+}
+
+.work-page-content {
+  border-top: 1px solid black;
+}
+
+.work-page-content,
+.work-page-left-content,
+.work-page-right-content {
+  display: flex;
+}
+
+.work-page-content {
+  flex-direction: row;
+}
+
+.work-page-left-content {
+  flex-direction: row;
+  flex-basis: 50%;
+  padding-top: 25px;
+  margin-left: 3.125rem;
+}
+
+.work-page-right-content {
+  flex-direction: column;
+  flex-basis: 45%;
+  padding-top: 25px;
+  margin-right: 3.125rem;
+  padding-right: 5rem;
+}
+
+
+.wpc-case-number {
+  padding-right: 5.813rem;
+}
+
+.wpc-cs-title {
+  letter-spacing: -0.96px;
+  font-weight: 400;
+  font-size: 3rem;
+  padding-right: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  #work {
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.44px;
+    color: #282828;
+  }
+
+  .wpc-cs-title {
+    letter-spacing: -0.96px;
+    font-weight: 400;
+    font-size: 46px;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .work-page-left-content {
+    flex-direction: row;
+    flex-basis: 50%;
+    padding-top: 25px;
+    margin-left: 3.125rem;
+  }
+  
+  .work-page-right-content {
+    flex-direction: column;
+    flex-basis: 40%;
+    padding-top: 25px;
+    margin-right: 0rem;
+    padding-right: 3.125rem;
+  }
+
+  .wpc-case-number {
+    padding-right: 3.125rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #work {
+    font-family: Arial;
+    font-size: 3.1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.44px;
+    color: #282828;
+  }
+
+  .wpc-cs-title {
+    letter-spacing: -0.96px;
+    font-weight: 400;
+    font-size: 8.05vw;
+    padding-right: 1rem;
+  }
+
+  .work-page-left-content {
+    flex-direction: row;
+    flex-basis: 55%;
+    padding-top: 25px;
+    margin-left: 15px;
+  }
+  
+  .work-page-right-content {
+    flex-direction: column;
+    flex-basis: 45%;
+    padding-top: 25px;
+    margin-right: 0rem;
+    padding-right: 15px;
+  }
+
+  .wpc-case-number {
+    padding-right: 2.063rem;
+  }
+
+  
+}

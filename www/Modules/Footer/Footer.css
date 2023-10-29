@@ -1,0 +1,49 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+/* generiic styling */
+body {
+  background-color: #f3f2ed;
+  color: #282828;
+  font-family: Arial, sans-serif;
+  -webkit-user-select: none;
+  user-select: none;
+}
+/* end of generic styling */
+
+#footer-section {
+  background-color: #282828;
+  color: #f3f2ed;
+  font-size: 1.125rem;
+  letter-spacing: -0.56px;
+  text-align: start;
+  padding: 1.563rem 0 3.125rem 3.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#footer-section div {
+  padding: 0.5px;
+}
+
+.group-nav > a {
+  text-decoration: none;
+  color: #f3f2ed;
+}
+
+.group-nav > a:hover {
+  border-bottom: 2px solid #f3f2ed;
+}
+
+@media screen and (max-width: 576px) {
+  #footer-section {
+    background-color: #282828;
+    color: #f3f2ed;
+    font-size: 3.1vw;
+    letter-spacing: -0.56px;
+    text-align: start;
+    padding: 1.563rem 0 3.125rem 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

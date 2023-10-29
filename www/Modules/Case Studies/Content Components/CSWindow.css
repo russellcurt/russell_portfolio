@@ -1,0 +1,63 @@
+/* rightnav stylings start here */
+.right-nav {
+  font-size: 2rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 23vw;
+}
+
+.right-nav-btn {
+  font-weight: 700;
+  padding: 0.7rem 1.2rem 0.67rem;
+  border-bottom: 1px solid #282828;
+  width: 100%;
+  color: #282828;
+  background-color: #f3f2ed;
+}
+
+.right-nav-btn:hover {
+  cursor: pointer;
+  color: #f3f2ed;
+  background-color: #282828;
+}
+
+.right-nav-btn.active {
+  color: #f3f2ed;
+  background-color: #282828;
+}
+
+.rn-cs-step-number {
+  font-weight: 400;
+}
+
+.rn-top {
+  border-top: 1px solid #282828;
+  margin-top: -1px;
+  /* padding-top: 1rem; */
+}
+
+/* rightnav stylings end here */
+
+/* csdtitles stylings start here */
+.content-title-bar {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.7rem 1.2rem;
+  background-color: #282828;
+  color: #f3f2ed;
+  font-style: normal;
+  line-height: normal;
+  border-top: 1px solid #282828;
+  border-bottom: 1px solid #282828;
+}
+
+.content-step-number {
+  font-weight: 400;
+}
+/* csdtitles stylings end here */
+@media screen and (max-width: 576px) {
+.content-title-bar {
+  font-size: 19px;
+}
+}
