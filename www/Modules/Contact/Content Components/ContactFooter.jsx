@@ -92,7 +92,7 @@ export default function ContactFooter() {
         This website is custom built using the React JavaScript library and
         hosted on{" "}
         <a
-          href="https://github.com/russellcurt/Russell-Villasenor-Web-Portfolio"
+          href="https://github.com/russellcurt/russell_portfolio"
           target="_blank"
         >
           GitHub Pages
