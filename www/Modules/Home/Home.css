@@ -285,13 +285,13 @@ a {
   /* this selector works for red */
   .mobile-home div {
     /* background-color: #282828; */
-    animation: invert1 .75s ease-out 2.15s forwards;
+    animation: invert1 .5s ease-in 1.5s forwards;
   }
 
   /* this selector works for all letters but need to remove inline hover styles to remaining lead letters/symbols*/
   .mobile-home div span {
     /* color: #f3f2ed; */
-    animation: invert2 .25s ease-in 2.15s forwards;
+    animation: invert2 .25s ease-in 1.25s forwards;
   }
 
   @keyframes invert1 {
