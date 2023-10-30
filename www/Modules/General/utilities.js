@@ -3,7 +3,7 @@ export const scrollToRef = (ref) => {
     const elementOffsetTop = ref.current.offsetTop;
     const currentScroll = window.scrollY;
     const offset =
-      elementOffsetTop > currentScroll ? 0 : (15 * window.innerHeight) / 100;
+      elementOffsetTop > currentScroll ? 0 : 120.5;
 
     window.scrollTo({
       top: elementOffsetTop - offset + 1,
