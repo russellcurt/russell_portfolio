@@ -184,7 +184,7 @@ export default function Envision() {
                 </div>
               </div>
               <div className="envision-overview-btn-container">
-                <CSLinkButton buttonText="View Full Case Study" />
+                <CSLinkButton buttonText="View Full Case Study" linkOut="https://google.com"/>
                 <CSLinkButton buttonText="View Prototype" />
               </div>
 

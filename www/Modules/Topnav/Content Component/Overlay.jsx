@@ -105,7 +105,7 @@ const Overlay = ({ show, onClose }) => {
     <div className="overlay">
       <div id="myNav">
         <nav className="nav-container">
-          <Link onClick={scrollToTop} to="/russell_portfolio/">
+          <Link onClick={scrollToTop} to="/russell_portfolio/" className="logo-container">
             <motion.div
               className="personal-logo"
               whileHover="hover"

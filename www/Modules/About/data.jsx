@@ -80,7 +80,6 @@ export default [
         <>
           <br />
           <br />
-          <br />
         </>
       ),
       third: <br />,
@@ -180,7 +179,6 @@ export default [
       fourth: <br />,
       fifth: (
         <>
-          <br />
           <br />
           <br />
         </>
