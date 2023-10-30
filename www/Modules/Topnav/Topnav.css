@@ -19,7 +19,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  height: 15vh;
+  height: 7.5rem;
   border-bottom: 1px solid #282828;
   z-index: 100;
 }
@@ -187,12 +187,18 @@ body {
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .flat-logo {
-    padding-top: 0.7rem;
-    padding-left: 2.2rem;
+    padding-top: 0.85rem;
+    padding-left: 2.35rem;
     position: absolute;
     top: 0%;
     display: block;
   }
+
+  .personal-logo {
+  padding-top: 0.835rem;
+  padding-left: 2.325rem;
+  position: relative;
+}
 }
 
 @media screen and (max-width: 576px) {
@@ -203,7 +209,7 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    height: 14vh;
+    height: 6rem;
     border-bottom: 1px solid #282828;
     z-index: 100;
   }
