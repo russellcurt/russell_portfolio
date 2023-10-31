@@ -182,8 +182,14 @@ export default function Echo() {
               </div>
 
               <div className="echo-overview-btn-container">
-                <CSLinkButton buttonText="View Full Case Study" />
-                <CSLinkButton buttonText="View Prototype" />
+                <CSLinkButton
+                  buttonText="View Full Case Study"
+                  linkOut="https://docs.google.com/presentation/d/103qO-UQRrWAEqgc6p8tO-rjTDhoRv-C0RcZX0oA6KVA/edit?usp=sharing"
+                />
+                <CSLinkButton
+                  buttonText="View Prototype"
+                  linkOut="https://www.figma.com/proto/LfFxKm6UlXeIb0Mws5wzy2/Echo-(Live-Transcription-App)?page-id=453%3A6957&type=design&node-id=667-7641&viewport=1722%2C-208%2C0.07&t=h8JKXH4EPqJ5rASb-1&scaling=scale-down&starting-point-node-id=667%3A7666&show-proto-sidebar=1&mode=design"
+                />
               </div>
 
               <div className="echo-overview-img-container">
@@ -563,7 +569,10 @@ export default function Echo() {
               </div>
 
               <div className="echo-design-spacing echo-design-center-btn">
-                <CSLinkButton buttonText="View Prototype" />
+                <CSLinkButton
+                  buttonText="View Prototype"
+                  linkOut="https://www.figma.com/proto/LfFxKm6UlXeIb0Mws5wzy2/Echo-(Live-Transcription-App)?page-id=453%3A6957&type=design&node-id=667-7641&viewport=1722%2C-208%2C0.07&t=h8JKXH4EPqJ5rASb-1&scaling=scale-down&starting-point-node-id=667%3A7666&show-proto-sidebar=1&mode=design"
+                />
               </div>
 
               <div className="echo-design-spacing">
@@ -582,8 +591,14 @@ export default function Echo() {
               </div>
 
               <div className="echo-design-spacing echo-design-center-btns">
-                <CSLinkButton buttonText="View Repository" />
-                <CSLinkButton buttonText="View Website" />
+                <CSLinkButton
+                  buttonText="View Repository"
+                  linkOut="https://github.com/russellcurt/Echo-Final-Project-"
+                />
+                <CSLinkButton
+                  buttonText="View Website"
+                  linkOut="https://russellcurt.github.io/Echo-Final-Project-/"
+                />
               </div>
 
               <div className="echo-design-spacing">

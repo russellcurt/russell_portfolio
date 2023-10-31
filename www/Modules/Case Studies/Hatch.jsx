@@ -180,8 +180,14 @@ export default function Hatch() {
                 </div>
               </div>
               <div className="hatch-overview-spacing hatch-overview-btn-container">
-                <CSLinkButton buttonText="View Full Case Study" />
-                <CSLinkButton buttonText="View Prototype" />
+                <CSLinkButton
+                  buttonText="View Full Case Study"
+                  linkOut="https://docs.google.com/presentation/d/1kxMgo_VXTnDO7YhUg0cdDkkxJjuH1vkYKrnfgo9zTMY/edit#slide=id.p1"
+                />
+                <CSLinkButton
+                  buttonText="View Prototype"
+                  linkOut="https://www.figma.com/proto/DMOHLFrWlsYG5MeuMoO3Jk/Hatch-(Financial-Planning-and-Budgeting-App)?page-id=1005%3A11804&type=design&node-id=1005-11811&viewport=918%2C397%2C0.1&t=mKRdZbfzzoPh4Sv8-1&scaling=scale-down&starting-point-node-id=1005%3A11811&mode=design"
+                />
               </div>
               <LazyLoadImage
                 src={hatImg2}
@@ -492,7 +498,10 @@ export default function Hatch() {
                 />
               </div>
               <div className="hatch-design-spacing hatch-design-btn-container">
-                <CSLinkButton buttonText="View Prototype" />
+                <CSLinkButton
+                  buttonText="View Prototype"
+                  linkOut="https://www.figma.com/proto/DMOHLFrWlsYG5MeuMoO3Jk/Hatch-(Financial-Planning-and-Budgeting-App)?page-id=1005%3A11804&type=design&node-id=1005-11811&viewport=918%2C397%2C0.1&t=mKRdZbfzzoPh4Sv8-1&scaling=scale-down&starting-point-node-id=1005%3A11811&mode=design"
+                />
               </div>
               <div className="hatch-design-spacing">
                 <div className="csd-titles">Next Steps</div>

@@ -227,7 +227,7 @@
 }
 
 .envision-design-btn-container {
-  padding-top: 3.125rem;
+  padding-top: 6.25rem;
   text-align: center;
 }
 
@@ -459,7 +459,7 @@
 .soi-design-btn-container {
   display: flex;
   justify-content: center;
-  padding-left: 6rem;
+  align-items: center;
 }
 /* end of starting over inc stylings */
 

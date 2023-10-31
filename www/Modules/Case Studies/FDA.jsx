@@ -192,8 +192,14 @@ export default function FDA() {
                 </div>
               </div>
               <div className="fda-overview-spacing fda-overview-btn-container">
-                <CSLinkButton buttonText="View Full Case Study" />
-                <CSLinkButton buttonText="View Prototype" />
+                <CSLinkButton
+                  buttonText="View Full Case Study"
+                  linkOut="https://docs.google.com/presentation/d/1ITYB2Kx_Uwz06ICSpBXq7vMAOQrIOhgi0hN604569eM/edit#slide=id.p"
+                />
+                <CSLinkButton
+                  buttonText="View Prototype"
+                  linkOut="https://www.figma.com/file/wFrdYkL78Qi6jdfhPGdWRh/FDA-Redesign-Prototypes?type=design&node-id=1131%3A12658&mode=design&t=jRcWcnaSMLkWS8DZ-1"
+                />
               </div>
               <LazyLoadImage
                 src={fdaImg2}
@@ -582,7 +588,10 @@ export default function FDA() {
                 />
               </div>
               <div className="fda-design-spacing fda-design-btn-container">
-                <CSLinkButton buttonText="View Prototype" />
+                <CSLinkButton
+                  buttonText="View Prototype"
+                  linkOut="https://www.figma.com/file/wFrdYkL78Qi6jdfhPGdWRh/FDA-Redesign-Prototypes?type=design&node-id=1131%3A12658&mode=design&t=jRcWcnaSMLkWS8DZ-1"
+                />
               </div>
               <div className="fda-design-spacing">
                 <div className="csd-titles">Next Steps</div>

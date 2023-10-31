@@ -188,7 +188,10 @@ export default function Envision() {
                   buttonText="View Full Case Study"
                   linkOut="https://docs.google.com/presentation/d/1i0Fs21iWC8HzhsUqWEe2TCcjszA4CqQ8ALAs73XQplY/edit#slide=id.g7c982c4f2d_0_103"
                 />
-                <CSLinkButton buttonText="View Prototype" />
+                <CSLinkButton
+                  buttonText="View Prototype"
+                  linkOut="https://www.figma.com/proto/cAxDHcRgymJU2mu79QHdNv/Envision-(Travel-Planning-App)?page-id=601%3A1994&type=design&node-id=1123-3003&viewport=809%2C171%2C0.15&t=tzWRtVVJRyJPmr9C-1&scaling=scale-down&starting-point-node-id=1123%3A3003&mode=design"
+                />
               </div>
 
               <div className="envision-overview-img-container">
@@ -528,7 +531,10 @@ export default function Envision() {
                 />
               </div>
               <div className="envision-design-btn-container envision-design-spacing">
-                <CSLinkButton buttonText="View Prototype" />
+                <CSLinkButton
+                  buttonText="View Prototype"
+                  linkOut="https://www.figma.com/proto/cAxDHcRgymJU2mu79QHdNv/Envision-(Travel-Planning-App)?page-id=601%3A1994&type=design&node-id=1123-3003&viewport=809%2C171%2C0.15&t=tzWRtVVJRyJPmr9C-1&scaling=scale-down&starting-point-node-id=1123%3A3003&mode=design"
+                />
               </div>
               <div className="envision-design-spacing ed2-container">
                 <div className="csd-titles">Next Steps</div>
