@@ -34,14 +34,18 @@ export default function Panel(props) {
           <div className="focus-body-container">
             <div className="focus-body-header">
               <div className="focus-body-text">
-              <span> All content taken from my 2022 design journal.</span>
-              <span>
-                (2 Month Design Journal and Personal Portfolio MAY - JUNE 2022)
-              </span>
+                <span> All content taken from my 2022 design journal.</span>
+                <span>
+                  (2 Month Design Journal and Personal Portfolio MAY - JUNE
+                  2022)
+                </span>
               </div>
             </div>
             <div className="focus-btn-spacing">
-              <CSLinkButton buttonText="View Full Journal" />
+              <CSLinkButton
+                buttonText="View Full Journal"
+                linkOut="https://www.behance.net/gallery/147839547/2-Month-Design-JournalPortfolio"
+              />
             </div>
             {renderValue}
           </div>
