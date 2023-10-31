@@ -180,9 +180,8 @@ export default function Landing() {
                 <span
                   className="leadLetters r-lead"
                   style={hoverStyle}
-                  // onMouseEnter={handleMouseEnter}
-                  // onMouseLeave={handleMouseLeave}
-                  onClick={handleMouseEnter}
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
                 >
                   R
                 </span>
