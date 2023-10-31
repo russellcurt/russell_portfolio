@@ -199,8 +199,14 @@ export default function StartingOverInc() {
                 </div>
               </div>
               <div className="soi-overview-spacing soi-overview-btn-container">
-                <CSLinkButton buttonText="View Full Case Study" />
-                <CSLinkButton buttonText="View Prototype" />
+                <CSLinkButton
+                  buttonText="View Full Case Study"
+                  linkOut="https://docs.google.com/presentation/d/1qlaElIvIcziKxhi-3nLsTBSfMX5KI8hM6NQI6eXyeY4/edit?usp=sharing"
+                />
+                <CSLinkButton
+                  buttonText="View Prototype"
+                  linkOut="https://www.figma.com/file/7Ajjjr9AYRKwc00H62Wn9z/Starting-Over-Inc.-Redesign-Prototypes?type=design&node-id=1101%3A13519&mode=design&t=Z1IavTNAORoocmps-1"
+                />
               </div>
               <LazyLoadImage
                 src={soi_Img2}
@@ -564,7 +570,10 @@ export default function StartingOverInc() {
                 />
               </div>
               <div className="soi-design-spacing soi-design-btn-container">
-                <CSLinkButton buttonText="View Prototype" />
+                <CSLinkButton
+                  buttonText="View Prototype"
+                  linkOut="https://www.figma.com/file/7Ajjjr9AYRKwc00H62Wn9z/Starting-Over-Inc.-Redesign-Prototypes?type=design&node-id=1101%3A13519&mode=design&t=Z1IavTNAORoocmps-1"
+                />
               </div>
               <div className="soi-design-spacing">
                 <div className="csd-titles">Iterations</div>
