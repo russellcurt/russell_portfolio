@@ -24,17 +24,17 @@ import {
 import { useState } from "react";
 
 const routeElements = (
-  <Route path="/russell_portfolio/">
+  <Route path="/https://russellvillasenor.studio//">
     <Route index element={<Home />} />
-    <Route path="/russell_portfolio/about" element={<About />} />
-    <Route path="/russell_portfolio/work" element={<Work />} />
-    <Route path="/russell_portfolio/work/echo" element={<Echo />} />
-    <Route path="/russell_portfolio/work/starting-over-inc" element={<StartingOverInc />} />
-    <Route path="/russell_portfolio/work/envision" element={<Envision />} />
-    <Route path="/russell_portfolio/work/hatch" element={<Hatch />} />
-    <Route path="/russell_portfolio/work/fda" element={<FDA />} />
-    <Route path="/russell_portfolio/recreation" element={<Recreation />} />
-    <Route path="/russell_portfolio/contact" element={<Contact />} />
+    <Route path="/https://russellvillasenor.studio//about" element={<About />} />
+    <Route path="/https://russellvillasenor.studio//work" element={<Work />} />
+    <Route path="/https://russellvillasenor.studio//work/echo" element={<Echo />} />
+    <Route path="/https://russellvillasenor.studio//work/starting-over-inc" element={<StartingOverInc />} />
+    <Route path="/https://russellvillasenor.studio//work/envision" element={<Envision />} />
+    <Route path="/https://russellvillasenor.studio//work/hatch" element={<Hatch />} />
+    <Route path="/https://russellvillasenor.studio//work/fda" element={<FDA />} />
+    <Route path="/https://russellvillasenor.studio//recreation" element={<Recreation />} />
+    <Route path="/https://russellvillasenor.studio//contact" element={<Contact />} />
   </Route>
 );
 
