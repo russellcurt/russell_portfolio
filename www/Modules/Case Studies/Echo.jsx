@@ -653,8 +653,8 @@ export default function Echo() {
         key="echo"
         prevText="WORK"
         nextText="02 Starting Over Inc."
-        prevLink="/russell_portfolio/work"
-        nextLink="/russell_portfolio/work/starting-over-inc"
+        prevLink="/work"
+        nextLink="/work/starting-over-inc"
       />
       <Footer />
     </>

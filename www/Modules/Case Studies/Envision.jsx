@@ -591,8 +591,8 @@ export default function Envision() {
         key="envision"
         prevText="02 Starting Over Inc."
         nextText="04 Hatch"
-        prevLink="/russell_portfolio/work/starting-over-inc"
-        nextLink="/russell_portfolio/work/hatch"
+        prevLink="/work/starting-over-inc"
+        nextLink="/work/hatch"
       />
       <Footer />
     </>

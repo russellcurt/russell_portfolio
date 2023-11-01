@@ -34,65 +34,65 @@ const Overlay = ({ show, onClose }) => {
     }
   }, [show]);
 
-  if (location.pathname === "/russell_portfolio/recreation") {
+  if (location.pathname === "/recreation") {
     content = (
       <>
-        <Link onClick={scrollToTop} to="/russell_portfolio/about">
+        <Link onClick={scrollToTop} to="/about">
           About
         </Link>
-        <Link onClick={scrollToTop} to="/russell_portfolio/work">
+        <Link onClick={scrollToTop} to="/work">
           Work
         </Link>
-        <Link onClick={scrollToTop} to="/russell_portfolio/contact">
+        <Link onClick={scrollToTop} to="/contact">
           Contact
         </Link>
       </>
     );
-  } else if (location.pathname === "/russell_portfolio/about") {
+  } else if (location.pathname === "/about") {
     content = (
       <>
-        <Link onClick={scrollToTop} to="/russell_portfolio/work">
+        <Link onClick={scrollToTop} to="/work">
           Work
         </Link>
-        <Link onClick={scrollToTop} to="/russell_portfolio/recreation">
+        <Link onClick={scrollToTop} to="/recreation">
           Recreation
         </Link>
-        <Link onClick={scrollToTop} to="/russell_portfolio/contact">
+        <Link onClick={scrollToTop} to="/contact">
           Contact
         </Link>
       </>
     );
   } else if (
-    location.pathname === "/russell_portfolio/work" ||
-    location.pathname === "/russell_portfolio/work/echo" ||
-    location.pathname === "/russell_portfolio/work/starting-over-inc" ||
-    location.pathname === "/russell_portfolio/work/envision" ||
-    location.pathname === "/russell_portfolio/work/fda" ||
-    location.pathname === "/russell_portfolio/work/hatch"
+    location.pathname === "/work" ||
+    location.pathname === "/work/echo" ||
+    location.pathname === "/work/starting-over-inc" ||
+    location.pathname === "/work/envision" ||
+    location.pathname === "/work/fda" ||
+    location.pathname === "/work/hatch"
   ) {
     content = (
       <>
-        <Link onClick={scrollToTop} to="/russell_portfolio/about">
+        <Link onClick={scrollToTop} to="/about">
           About
         </Link>
-        <Link onClick={scrollToTop} to="/russell_portfolio/recreation">
+        <Link onClick={scrollToTop} to="/recreation">
           Recreation
         </Link>
-        <Link onClick={scrollToTop} to="/russell_portfolio/contact">
+        <Link onClick={scrollToTop} to="/contact">
           Contact
         </Link>
       </>
     );
-  } else if (location.pathname === "/russell_portfolio/contact") {
+  } else if (location.pathname === "/contact") {
     content = (
       <>
-        <Link onClick={scrollToTop} to="/russell_portfolio/about">
+        <Link onClick={scrollToTop} to="/about">
           About
         </Link>
-        <Link onClick={scrollToTop} to="/russell_portfolio/work">
+        <Link onClick={scrollToTop} to="/work">
           Work
         </Link>
-        <Link onClick={scrollToTop} to="/russell_portfolio/recreation">
+        <Link onClick={scrollToTop} to="/recreation">
           Recreation
         </Link>
       </>
@@ -105,7 +105,7 @@ const Overlay = ({ show, onClose }) => {
     <div className="overlay">
       <div id="myNav">
         <nav className="nav-container">
-          <Link onClick={scrollToTop} to="/russell_portfolio/" className="logo-container">
+          <Link onClick={scrollToTop} to="/" className="logo-container">
             <motion.div
               className="personal-logo"
               whileHover="hover"

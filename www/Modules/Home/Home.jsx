@@ -98,7 +98,7 @@ export default function Landing() {
 
             <div className="page-letters home-media-styles-nav">
               <span className="underline about">
-                <Link onClick={scrollToTop} to="/russell_portfolio/about">
+                <Link onClick={scrollToTop} to="/about">
                   <span
                     className="leadLetters"
                     style={{ borderBottom: "4px solid #f3f2ed" }}
@@ -115,7 +115,7 @@ export default function Landing() {
               </span>
 
               <span className="underline work">
-                <Link onClick={scrollToTop} to="/russell_portfolio/work">
+                <Link onClick={scrollToTop} to="/work">
                   <span
                     className="leadLetters"
                     style={{ borderBottom: "4px solid #f3f2ed" }}
@@ -132,7 +132,7 @@ export default function Landing() {
               </span>
 
               <span className="underline recreation">
-                <Link onClick={scrollToTop} to="/russell_portfolio/recreation">
+                <Link onClick={scrollToTop} to="/recreation">
                   <span
                     className="leadLetters"
                     style={{ borderBottom: "4px solid #f3f2ed" }}
@@ -151,7 +151,7 @@ export default function Landing() {
 
             <div className="page-letters">
               <span className="underline contact">
-                <Link onClick={scrollToTop} to="/russell_portfolio/contact">
+                <Link onClick={scrollToTop} to="/contact">
                   <span
                     className="leadLetters"
                     style={{ borderBottom: "4px solid #f3f2ed" }}
@@ -294,7 +294,7 @@ export default function Landing() {
 
             <div className="page-letters home-media-styles-nav">
               <span className="underline about">
-                <Link onClick={scrollToTop} to="/russell_portfolio/about">
+                <Link onClick={scrollToTop} to="/about">
                   <span
                     className="leadLetters"
                     style={under1Style}
@@ -316,7 +316,7 @@ export default function Landing() {
               </span>
 
               <span className="underline work">
-                <Link onClick={scrollToTop} to="/russell_portfolio/work">
+                <Link onClick={scrollToTop} to="/work">
                   <span
                     className="leadLetters"
                     style={under2Style}
@@ -338,7 +338,7 @@ export default function Landing() {
               </span>
 
               <span className="underline recreation">
-                <Link onClick={scrollToTop} to="/russell_portfolio/recreation">
+                <Link onClick={scrollToTop} to="/recreation">
                   <span
                     className="leadLetters"
                     style={under3Style}
@@ -362,7 +362,7 @@ export default function Landing() {
 
             <div className="page-letters">
               <span className="underline contact">
-                <Link onClick={scrollToTop} to="/russell_portfolio/contact">
+                <Link onClick={scrollToTop} to="/contact">
                   <span
                     className="leadLetters"
                     style={under4Style}

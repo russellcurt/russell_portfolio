@@ -646,8 +646,8 @@ export default function StartingOverInc() {
         key="starting-over-inc"
         prevText="01 Echo"
         nextText="03 Envision"
-        prevLink="/russell_portfolio/work/echo"
-        nextLink="/russell_portfolio/work/envision"
+        prevLink="/work/echo"
+        nextLink="/work/envision"
       />
       <Footer />
     </>
