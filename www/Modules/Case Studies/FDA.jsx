@@ -641,7 +641,7 @@ export default function FDA() {
         prevText="04 Hatch"
         nextText="WORK"
         prevLink="/work/hatch"
-        nextLink="/work/"
+        nextLink="/work"
       />
       <Footer />
     </>
