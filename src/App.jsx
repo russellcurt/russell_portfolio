@@ -19,9 +19,9 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <nav>
-        <Link to="/https://russellvillasenor.studio/">Home</Link>
+        <Link to="/">Home</Link>
         {" | "}
-        <Link to="/https://russellvillasenor.studio//contact">Contact</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
       <Outlet />
       <p className="read-the-docs">

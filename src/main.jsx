@@ -24,67 +24,21 @@ import {
 import { useState } from "react";
 
 const routeElements = (
-  <Route path="/https://russellvillasenor.studio//">
+  <Route path="/">
     <Route index element={<Home />} />
-    <Route path="/https://russellvillasenor.studio//about" element={<About />} />
-    <Route path="/https://russellvillasenor.studio//work" element={<Work />} />
-    <Route path="/https://russellvillasenor.studio//work/echo" element={<Echo />} />
-    <Route path="/https://russellvillasenor.studio//work/starting-over-inc" element={<StartingOverInc />} />
-    <Route path="/https://russellvillasenor.studio//work/envision" element={<Envision />} />
-    <Route path="/https://russellvillasenor.studio//work/hatch" element={<Hatch />} />
-    <Route path="/https://russellvillasenor.studio//work/fda" element={<FDA />} />
-    <Route path="/https://russellvillasenor.studio//recreation" element={<Recreation />} />
-    <Route path="/https://russellvillasenor.studio//contact" element={<Contact />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/work" element={<Work />} />
+    <Route path="/work/echo" element={<Echo />} />
+    <Route path="/work/starting-over-inc" element={<StartingOverInc />} />
+    <Route path="/work/envision" element={<Envision />} />
+    <Route path="/work/hatch" element={<Hatch />} />
+    <Route path="/work/fda" element={<FDA />} />
+    <Route path="/recreation" element={<Recreation />} />
+    <Route path="/contact" element={<Contact />} />
   </Route>
 );
 
 const router = createBrowserRouter(createRoutesFromElements(routeElements));
-// const router = createBrowserRouter([
-//   {
-//     path: "/russell_portfolio/",
-//     element: <Home />,
-//     children: [
-//       {
-//         path: "/russell_portfolio/contact",
-//         element: <About />, //about, no children
-//       },
-//       {
-//         path: "/russell_portfolio/contact",
-//         element: <Contact />, //contact, no children
-//       },
-//       {
-//         path: "/russell_portfolio/contact",
-//         element: <Recreation />, //recreation no children
-//       },
-//       {
-//         path: "/russell_portfolio/contact",
-//         element: <Work />, //work has children
-//         children: [
-//           {
-//             path: "/russell_portfolio/contact",
-//             element: <Contact />, //echo
-//           },
-//           {
-//             path: "/russell_portfolio/contact",
-//             element: <Contact />, //soi
-//           },
-//           {
-//             path: "/russell_portfolio/contact",
-//             element: <Contact />, //envision
-//           },
-//           {
-//             path: "/russell_portfolio/contact",
-//             element: <Contact />, //hatch
-//           },
-//           {
-//             path: "/russell_portfolio/contact",
-//             element: <Contact />, //fda
-//           },
-//         ],
-//       },
-//     ],
-//   },
-// ]);
 
 function App() {
   const [showOverlay, setShowOverlay] = useState(false);
