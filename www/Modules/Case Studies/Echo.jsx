@@ -113,7 +113,6 @@ export default function Echo() {
 
   // handles top stylings for rightnav
   const handleScroll = () => {
-    // check if we're at top, can adjust the value being compared in the if statement for better accuracy on class toggle
     if (window.scrollY < 775) {
       setIsTop(true);
       setActiveSection("");
@@ -121,6 +120,7 @@ export default function Echo() {
       setIsTop(false);
     }
   };
+  
   // clean up of event listener
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);

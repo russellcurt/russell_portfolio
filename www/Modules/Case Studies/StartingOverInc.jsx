@@ -110,7 +110,6 @@ export default function StartingOverInc() {
 
   // handles top stylings for rightnav
   const handleScroll = () => {
-    // check if we're at top
     if (window.scrollY < 850) {
       setIsTop(true);
       setActiveSection("");

@@ -16,7 +16,6 @@ export default function RightNav({
         className={`right-nav-btn rn-top ${
           isTop ? "" : activeSection === "overview" ? "active" : ""
         }`}
-        // className="right-nav-btn rn-top"
         onClick={() => scrollToRef(overviewRef)}
       >
         <span className="rn-cs-step-number">00/</span>Overview
@@ -25,7 +24,6 @@ export default function RightNav({
         className={`right-nav-btn ${
           isTop ? "" : activeSection === "empathize" ? "active" : ""
         }`}
-        // className="right-nav-btn"
         onClick={() => scrollToRef(empathizeRef)}
       >
         <span className="rn-cs-step-number">01/</span>Empathize
@@ -34,7 +32,6 @@ export default function RightNav({
         className={`right-nav-btn ${
           isTop ? "" : activeSection === "define" ? "active" : ""
         }`}
-        // className="right-nav-btn"
         onClick={() => scrollToRef(defineRef)}
       >
         <span className="rn-cs-step-number">02/</span>Define
@@ -43,7 +40,6 @@ export default function RightNav({
         className={`right-nav-btn ${
           isTop ? "" : activeSection === "ideate" ? "active" : ""
         }`}
-        // className="right-nav-btn"
         onClick={() => scrollToRef(ideateRef)}
       >
         <span className="rn-cs-step-number">03/</span>Ideate
@@ -52,7 +48,6 @@ export default function RightNav({
         className={`right-nav-btn ${
           isTop ? "" : activeSection === "design" ? "active" : ""
         }`}
-        // className="right-nav-btn"
         onClick={() => scrollToRef(designRef)}
       >
         <span className="rn-cs-step-number">04/</span>Design

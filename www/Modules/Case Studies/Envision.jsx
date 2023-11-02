@@ -112,9 +112,7 @@ export default function Envision() {
 
   // handles top stylings for rightnav
   const handleScroll = () => {
-    // check if we're at top
     if (window.scrollY < 850) {
-      // initially was window.scrollY === 0 but can change relative to each page.
       setIsTop(true);
       setActiveSection("");
     } else {

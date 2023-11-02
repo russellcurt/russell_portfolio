@@ -15,12 +15,3 @@ export const scrollToRef = (ref) => {
 export const scrollToTop = () => {
   window.scrollTo({ top: 0, left: 0, behavior: "auto" });
 };
-
-// is this even needed anymore?
-export const scrollToBottom = () => {
-  window.scroll({
-    top: document.body.offsetHeight,
-    left: 0,
-    behavior: "auto",
-  });
-};

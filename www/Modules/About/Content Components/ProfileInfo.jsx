@@ -33,7 +33,9 @@ export default function ProfileInfo() {
             <span className="about-header-formatting">
               Let's&nbsp;
               <span
-                className={`header-underline-value ${titleHover ? "mobile-header-underline" : ""}`}
+                className={`header-underline-value ${
+                  titleHover ? "mobile-header-underline" : ""
+                }`}
               >
                 <span className="in-text in-text-create">create</span>
               </span>
@@ -42,11 +44,9 @@ export default function ProfileInfo() {
             <span className="about-header-formatting">
               something&nbsp;
               <span
-                // className="in-text in-text-together about-header-2"
-                className={`in-text in-text-together about-header-2 header-underline-value ${titleHover ? "mobile-header-underline" : ""}`}
-                // style={{
-                //   borderBottom: titleHover ? "2px solid #282828" : "none",
-                // }}
+                className={`in-text in-text-together about-header-2 header-underline-value ${
+                  titleHover ? "mobile-header-underline" : ""
+                }`}
               >
                 together
               </span>

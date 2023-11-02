@@ -116,7 +116,6 @@ export default function FDA() {
 
   // handles top stylings for rightnav
   const handleScroll = () => {
-    // check if we're at top
     if (window.scrollY < 550) {
       setIsTop(true);
       setActiveSection("");

@@ -14,7 +14,6 @@ import Hatch from "../www/Modules/Case Studies/Hatch.jsx";
 import FDA from "../www/Modules/Case Studies/FDA.jsx";
 import Recreation from "../www/Modules/Recreation/Recreation.jsx";
 
-// import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import {
   createBrowserRouter,
   Route,
