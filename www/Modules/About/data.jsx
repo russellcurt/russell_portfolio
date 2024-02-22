@@ -42,7 +42,7 @@ export default [
       third: "Jul 2022 - Present",
       fourth: "Fast Printing",
       fifth: "Production Artist",
-      sixth: "Sept 2022 - Jun 2022",
+      sixth: "Sept 2020 - Jun 2022",
       seventh: "AKASHA",
       eighth: "Creative Consultant",
       ninth: "Jan 2020 - Present",
