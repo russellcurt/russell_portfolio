@@ -37,15 +37,18 @@ export default [
     titleSpaces: { first: <br /> },
     svgSelector: "ee-svg",
     center: {
-      first: "Freelance",
-      second: "Graphic Designer, Production Artist",
-      third: "Jul 2022 - Present",
-      fourth: "Fast Printing",
-      fifth: "Production Artist",
-      sixth: "Sept 2020 - Jun 2022",
-      seventh: "AKASHA",
-      eighth: "Creative Consultant",
-      ninth: "Jan 2020 - Present",
+      first: "T Palmer Agency",
+      second: "UX/UI Designer",
+      third: "Feb 2024 - Present",
+      fourth: "Freelance",
+      fifth: "UX/UI Designer, Graphic Designer",
+      sixth: "Jul 2022 - Present",
+      seventh: "Fast Printing",
+      eighth: "Production Artist",
+      ninth: "Sept 2020 - Jun 2022",
+      tenth: "AKASHA",
+      eleventh: "Creative Consultant",
+      twelveth: "Jan 2020 - Present",
     },
     right: {
       first: "UX/UI Design",
@@ -73,6 +76,20 @@ export default [
       ),
       seventh: <br />,
       eighth: <br />,
+      ninth: (
+        <>
+          <br />
+          <br />
+        </>
+      ),
+      tenth: <br />,
+      eleventh: <br />,
+      twelveth: (
+        <>
+          <br />
+          <br />
+        </>
+      ),
     },
     rightSpaces: {
       first: <br />,
@@ -104,7 +121,8 @@ export default [
       eighth: "Tools:",
       ninth: "Figma, VSCode, Adobe Illustrator, ",
       tenth: "Adobe Photoshop, Adobe InDesign, ",
-      eleventh: "Adobe Lightroom, Blender3D",
+      eleventh: "Adobe Lightroom, Adobe After Effects, ",
+      twelveth: "Blender3D, Spline",
     },
     right: {
       first: "Code:",
@@ -162,10 +180,10 @@ export default [
     },
     right: {
       first: "Books I'm reading:",
-      second: "The Medium is the Massage -",
-      third: "Marshall McLuhan",
-      fourth: "The Wisdom of the Heart -",
-      fifth: "Henry Miller",
+      second: "The Book of Disquiet -",
+      third: "Fernando Pessoa",
+      fourth: "The Medium is the Massage -",
+      fifth: "Marshall McLuhan",
     },
     centerSpaces: {
       first: (

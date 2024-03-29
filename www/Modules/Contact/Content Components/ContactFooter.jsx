@@ -90,25 +90,25 @@ export default function ContactFooter() {
 
       <div className="cf-smaller-fonts cf-message">
         This website is custom built using the React JavaScript library and
-        hosted on{" "}
+        hosted on Netlify. View the repository on{" "}
         <a
           href="https://github.com/russellcurt/russell_portfolio"
           target="_blank"
         >
-          GitHub Pages
+          GitHub
         </a>
         . <br />
         The typefaces used are Arial and Playfair Display. <br />
-        My site is always a work in progress, just like me. Last Updated:
-        November 1, 2023 ■ 09:55:00am
+        My site is always a work in progress, just like me. Last Updated: March
+        28, 2024 ■ 09:24:00pm
       </div>
       <div className="cf-smaller-fonts cf-copyright">
         <div className="cf-copyright-filler">
           Email / Linkedin / Resume / Read.cv / Behance
         </div>
-        <div>© 2023 Russell Villaseñor</div>
+        <div>© 2024 Russell Villaseñor</div>
         <div className="cf-copyright-filler">
-          Last Updated: November 1, 2023 ■ 09:55:00am
+          Last Updated: March 28, 2024 ■ 09:24:00pm
         </div>
       </div>
     </section>

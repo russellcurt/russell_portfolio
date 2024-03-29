@@ -15,10 +15,7 @@ export default function Footer() {
             LinkedIn
           </a>{" "}
           /{" "}
-          <a
-            href={resume}
-            target="_blank"
-          >
+          <a href={resume} target="_blank">
             Resume
           </a>{" "}
           /{" "}
@@ -26,8 +23,8 @@ export default function Footer() {
             Read.cv
           </a>{" "}
         </div>
-        <div>© 2023 Russell Villaseñor</div>
-        <div>Last Updated: August 23, 2023 ■ 09:55:00am</div>
+        <div>© 2024 Russell Villaseñor</div>
+        <div>Last Updated: March 28, 2024 ■ 09:24:00pm</div>
       </footer>
     </>
   );

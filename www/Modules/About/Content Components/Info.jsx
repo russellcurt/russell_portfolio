@@ -7,11 +7,11 @@ export default function Info(props) {
 
   const handleHoverState = () => {
     setHoverState(true);
-  }
+  };
 
   const handleHoverOutState = () => {
     setHoverState(false);
-  }
+  };
 
   return (
     <>
@@ -20,7 +20,10 @@ export default function Info(props) {
         onMouseOver={handleHoverState}
         onMouseOut={handleHoverOutState}
       >
-        <div className={`left-info ${props.selector}`} style={{textDecoration: hoverState ? "underline" : ""}}>
+        <div
+          className={`left-info ${props.selector}`}
+          style={{ textDecoration: hoverState ? "underline" : "" }}
+        >
           {props.title.first}
           {props.titleSpaces.first}
         </div>
@@ -47,6 +50,8 @@ export default function Info(props) {
           {props.centerSpaces.tenth}
           {props.center.eleventh}
           {props.centerSpaces.eleventh}
+          {props.center.twelveth}
+          {props.centerSpaces.twelveth}
         </div>
         <div className="right-info">
           {props.right.first}
