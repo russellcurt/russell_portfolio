@@ -1,7 +1,7 @@
 import "../About.css";
 
 import candid from "../Assets/candid.png";
-import resume from "../Assets/Resume - Russell Villasenor.pdf";
+import resume from "../Assets/Russell Villasenor - UX Designer - Resume.pdf";
 
 import { useState } from "react";
 

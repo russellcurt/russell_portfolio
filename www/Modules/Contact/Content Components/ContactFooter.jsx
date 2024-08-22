@@ -1,6 +1,6 @@
 import "../Contact.css";
 
-import resume from "../../About/Assets/Resume - Russell Villasenor.pdf";
+import resume from "../../About/Assets/Russell Villasenor - UX Designer - Resume.pdf";
 
 import { useState } from "react";
 
@@ -99,8 +99,8 @@ export default function ContactFooter() {
         </a>
         . <br />
         The typefaces used are Arial and Playfair Display. <br />
-        My site is always a work in progress, just like me. Last Updated: March
-        28, 2024 ■ 09:24:00pm
+        My site is always a work in progress, just like me. Last Updated: August
+        22, 2024 ■ 12:58:00pm
       </div>
       <div className="cf-smaller-fonts cf-copyright">
         <div className="cf-copyright-filler">
@@ -108,7 +108,7 @@ export default function ContactFooter() {
         </div>
         <div>© 2024 Russell Villaseñor</div>
         <div className="cf-copyright-filler">
-          Last Updated: March 28, 2024 ■ 09:24:00pm
+          Last Updated: August 22, 2024 ■ 12:58:00pm
         </div>
       </div>
     </section>

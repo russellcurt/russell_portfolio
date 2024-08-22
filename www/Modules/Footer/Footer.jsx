@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-import resume from "../About/Assets/Resume - Russell Villasenor.pdf";
+import resume from "../About/Assets/Russell Villasenor - UX Designer - Resume.pdf";
 
 export default function Footer() {
   return (
@@ -24,7 +24,7 @@ export default function Footer() {
           </a>{" "}
         </div>
         <div>© 2024 Russell Villaseñor</div>
-        <div>Last Updated: March 28, 2024 ■ 09:24:00pm</div>
+        <div>Last Updated: August 22, 2024 ■ 12:58:00pm</div>
       </footer>
     </>
   );
