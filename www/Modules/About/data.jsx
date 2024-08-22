@@ -38,7 +38,7 @@ export default [
     svgSelector: "ee-svg",
     center: {
       first: "T Palmer Agency",
-      second: "UX/UI Designer",
+      second: "UX Lead & Project Manager",
       third: "Feb 2024 - Present",
       fourth: "Freelance",
       fifth: "UX/UI Designer, Graphic Designer",
@@ -170,20 +170,20 @@ export default [
     svgSelector: "more-svg",
     center: {
       first: "Albums I am listening to:",
-      second: "King Krule - 6 Feet Beneath the Moon",
-      third: "Title Fight - Shed",
-      fourth: "LCD Soundsystem - This Is Happening",
-      fifth: "Toro Y Moi - What For?",
+      second: "Don Toliver - HARDSTONE PSYCHO",
+      third: "Joyce Manor - S/T",
+      fourth: "Moodymann - Forevernevermore",
+      fifth: "Mk.gee - Two Star & The Dream Police",
       sixth: "What I am watching:",
-      seventh: "The Bear",
+      seventh: "The Sopranos",
       eighth: "It's Always Sunny in Philadelphia",
     },
     right: {
       first: "Books I'm reading:",
-      second: "The Book of Disquiet -",
-      third: "Fernando Pessoa",
-      fourth: "The Medium is the Massage -",
-      fifth: "Marshall McLuhan",
+      second: "The Denial of Death -",
+      third: "Ernest Becker",
+      fourth: "The Book of Disquiet -",
+      fifth: "Fernando Pessoa",
     },
     centerSpaces: {
       first: (

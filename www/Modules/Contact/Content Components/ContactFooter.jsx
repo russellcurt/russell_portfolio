@@ -100,7 +100,7 @@ export default function ContactFooter() {
         . <br />
         The typefaces used are Arial and Playfair Display. <br />
         My site is always a work in progress, just like me. Last Updated: August
-        22, 2024 ■ 12:58:00pm
+        22, 2024 ■ 13:21:00
       </div>
       <div className="cf-smaller-fonts cf-copyright">
         <div className="cf-copyright-filler">
@@ -108,7 +108,7 @@ export default function ContactFooter() {
         </div>
         <div>© 2024 Russell Villaseñor</div>
         <div className="cf-copyright-filler">
-          Last Updated: August 22, 2024 ■ 12:58:00pm
+          Last Updated: August 22, 2024 ■ 13:21:00
         </div>
       </div>
     </section>

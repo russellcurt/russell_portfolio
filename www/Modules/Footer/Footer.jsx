@@ -24,7 +24,7 @@ export default function Footer() {
           </a>{" "}
         </div>
         <div>© 2024 Russell Villaseñor</div>
-        <div>Last Updated: August 22, 2024 ■ 12:58:00pm</div>
+        <div>Last Updated: August 22, 2024 ■ 13:21:00</div>
       </footer>
     </>
   );
