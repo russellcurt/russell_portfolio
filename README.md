@@ -1,6 +1,6 @@
 # Russell Villasenor / Web Portfolio
 ## Introduction
-This repository contains code for my personal custom SPA portfolio website. The site was developed with Vite + React and is hosted statically with Github Pages.
+This repository contains code for my personal custom SPA portfolio website. The site was developed with Vite + React and is hosted on Netlify.
 
 View:
 https://www.russellvillasenor.studio
