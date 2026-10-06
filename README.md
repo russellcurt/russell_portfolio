@@ -28,4 +28,4 @@ Richard Villaseñor [Front-End Engineering] - https://github.com/rcvillasenor/
 Please contact for more information or with project enquiries.
 
 Email: madebyrssl@gmail.com
-View: https://www.russellvillasenor.studio/contact
+Contact: https://russellvillasenor.studio/rv2-contact
