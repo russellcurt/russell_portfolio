@@ -3,7 +3,10 @@
 This repository contains code for my personal custom SPA portfolio website. The site was developed with Vite + React and is hosted on Netlify.
 
 View:
-https://www.russellvillasenor.studio
+archive.russellvillasenor.studio
+
+Newest version:
+russellvillasenor.studio
 
 ## Packages
 This repository contains the following packages:
